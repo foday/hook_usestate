@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 
 function App() {
   const [count, setCount ] = useState(() => {
-   console.log('run function') 
-   return 4
-  });
+    console.log('run function') 
+    return 4});
 
   function decrementCount() {
     setCount(prevCount => prevCount -1 )
